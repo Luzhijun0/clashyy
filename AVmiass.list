@@ -12,6 +12,8 @@ DOMAIN-SUFFIX,go.myavlive.com
 DOMAIN-SUFFIX,cdn.tsyndicate.com
 DOMAIN-SUFFIX,go.xlivrdr.com
 DOMAIN-SUFFIX,img.doppiocdn.com
+DOMAIN-SUFFIX,a.magsrv.com
+DOMAIN-SUFFIX,s.magsrv.com
 
 #匹配域名
 DOMAIN,missav.ai
@@ -20,6 +22,11 @@ DOMAIN,go.myavlive.com
 DOMAIN,cdn.tsyndicate.com
 DOMAIN,go.xlivrdr.com
 DOMAIN,img.doppiocdn.com
+DOMAIN,a.magsrv.com
+DOMAIN,s.magsrv.com
+
+
+
 
 #匹配域名关键字
 DOMAIN-KEYWORD,missav
@@ -28,3 +35,5 @@ DOMAIN-KEYWORD,myavlive
 DOMAIN-KEYWORD,go.myavlive
 DOMAIN-KEYWORD,cdn.tsyndicate
 DOMAIN-KEYWORD,xlivrdr
+DOMAIN,a.magsrv
+DOMAIN,s.magsrv
