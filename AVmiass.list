@@ -14,6 +14,7 @@ DOMAIN-SUFFIX,go.xlivrdr.com
 DOMAIN-SUFFIX,img.doppiocdn.com
 DOMAIN-SUFFIX,a.magsrv.com
 DOMAIN-SUFFIX,s.magsrv.com
+DOMAIN-SUFFIX,fourhoi.com
 
 #匹配域名
 DOMAIN,missav.ai
@@ -26,9 +27,6 @@ DOMAIN,a.magsrv.com
 DOMAIN,s.magsrv.com
 DOMAIN,fourhoi.com
 
-
-
-
 #匹配域名关键字
 DOMAIN-KEYWORD,missav
 DOMAIN-KEYWORD,missav.ai
@@ -39,3 +37,7 @@ DOMAIN-KEYWORD,xlivrdr
 DOMAIN,a.magsrv
 DOMAIN,s.magsrv
 DOMAIN,fourhoi
+
+IP-CIDR,121.37.184.225/32,no-resolve
+IP-CIDR,27.44.204.122/32,no-resolve
+
