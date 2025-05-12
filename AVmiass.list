@@ -40,4 +40,6 @@ DOMAIN,fourhoi
 
 IP-CIDR,121.37.184.225/32,no-resolve
 IP-CIDR,27.44.204.122/32,no-resolve
+IP-CIDR,43.231.161.172/32,no-resolve
+
 
