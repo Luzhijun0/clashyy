@@ -7,6 +7,9 @@ DOMAIN-KEYWORD,missav
 
 #匹配域名后缀
 DOMAIN-SUFFIX,missav.ai
+DOMAIN-SUFFIX,missav.ws
+DOMAIN-SUFFIX,nineyu.com
+DOMAIN-SUFFIX,tsyndicate.com
 DOMAIN-SUFFIX,myavlive.com
 DOMAIN-SUFFIX,go.myavlive.com
 DOMAIN-SUFFIX,cdn.tsyndicate.com
@@ -18,6 +21,7 @@ DOMAIN-SUFFIX,fourhoi.com
 
 #匹配域名
 DOMAIN,missav.ai
+DOMAIN,missav.ws
 DOMAIN,myavlive.com
 DOMAIN,go.myavlive.com
 DOMAIN,cdn.tsyndicate.com
@@ -29,7 +33,9 @@ DOMAIN,fourhoi.com
 
 #匹配域名关键字
 DOMAIN-KEYWORD,missav
+DOMAIN-KEYWORD,missav.ws
 DOMAIN-KEYWORD,missav.ai
+DOMAIN-KEYWORD,tsyndicate
 DOMAIN-KEYWORD,myavlive
 DOMAIN-KEYWORD,go.myavlive
 DOMAIN-KEYWORD,cdn.tsyndicate
