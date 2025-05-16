@@ -10,6 +10,10 @@ DOMAIN-SUFFIX,missav.ai
 DOMAIN-SUFFIX,missav.ws
 DOMAIN-SUFFIX,nineyu.com
 DOMAIN-SUFFIX,tsyndicate.com
+DOMAIN-SUFFIX,metrics.doppiostreams.com
+DOMAIN-SUFFIX,sentry-public.stripchat.com
+DOMAIN-SUFFIX,api.ipify.org
+DOMAIN-SUFFIX,surrit.com
 DOMAIN-SUFFIX,myavlive.com
 DOMAIN-SUFFIX,go.myavlive.com
 DOMAIN-SUFFIX,cdn.tsyndicate.com
@@ -36,6 +40,9 @@ DOMAIN-KEYWORD,missav
 DOMAIN-KEYWORD,missav.ws
 DOMAIN-KEYWORD,missav.ai
 DOMAIN-KEYWORD,tsyndicate
+DOMAIN-KEYWORD,api.ipify
+DOMAIN-KEYWORD,tsyndicate
+DOMAIN-KEYWORD,nineyu
 DOMAIN-KEYWORD,myavlive
 DOMAIN-KEYWORD,go.myavlive
 DOMAIN-KEYWORD,cdn.tsyndicate
@@ -47,5 +54,8 @@ DOMAIN,fourhoi
 IP-CIDR,121.37.184.225/32,no-resolve
 IP-CIDR,27.44.204.122/32,no-resolve
 IP-CIDR,43.231.161.172/32,no-resolve
+IP-CIDR,104.16.133.229,no-resolve
+IP-CIDR,104.16.132.229,no-resolve
+IP-CIDR,82.165.235.35,no-resolve
 
 
