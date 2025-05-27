@@ -22,6 +22,10 @@ DOMAIN-SUFFIX,img.doppiocdn.com
 DOMAIN-SUFFIX,a.magsrv.com
 DOMAIN-SUFFIX,s.magsrv.com
 DOMAIN-SUFFIX,fourhoi.com
+DOMAIN-SUFFIX,b-hls-22.sacdnssedge.com
+DOMAIN-SUFFIX,edge-hls.sacdnssedge.com
+DOMAIN-SUFFIX,video.saawsedge.com
+
 
 #匹配域名
 DOMAIN,missav.ai
@@ -58,4 +62,5 @@ IP-CIDR,104.16.133.229,no-resolve
 IP-CIDR,104.16.132.229,no-resolve
 IP-CIDR,82.165.235.35,no-resolve
 
-
+#b-hls-22.sacdnssedge.com
+#edge-hls.sacdnssedge.com
