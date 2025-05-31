@@ -1,12 +1,8 @@
 # NAME: miass
 
 
-DOMAIN,app.bigmess.com
-DOMAIN,app.bigmess.org
-DOMAIN,www.bigme.pro
 DOMAIN-KEYWORD,bigmess
 
-DOMAIN,www.bigme.pro
 
 
 DOMAIN-SUFFIX,missav.ai
@@ -47,6 +43,10 @@ DOMAIN,img.doppiocdn.com
 DOMAIN,a.magsrv.com
 DOMAIN,s.magsrv.com
 DOMAIN,fourhoi.com
+
+DOMAIN,app.bigmess.org
+DOMAIN,www.bigme.pro
+DOMAIN,www.bigme.pro
 
 #匹配域名关键字
 DOMAIN-KEYWORD,missav
