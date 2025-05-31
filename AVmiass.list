@@ -30,6 +30,8 @@ DOMAIN-SUFFIX,fourhoi.com
 DOMAIN-SUFFIX,b-hls-22.sacdnssedge.com
 DOMAIN-SUFFIX,edge-hls.sacdnssedge.com
 DOMAIN-SUFFIX,video.saawsedge.com
+DOMAIN-SUFFIX,xhamsterlive.com
+DOMAIN-SUFFIX,tsvideo.sacdnssedge.com
 
 
 #匹配域名
@@ -43,10 +45,7 @@ DOMAIN,img.doppiocdn.com
 DOMAIN,a.magsrv.com
 DOMAIN,s.magsrv.com
 DOMAIN,fourhoi.com
-DOMAIN,happy.bigmess.org
-DOMAIN,app.bigmess.org
-DOMAIN,www.bigme.pro
-DOMAIN,www.bigme.pro
+
 
 #匹配域名关键字
 DOMAIN-KEYWORD,missav
