@@ -1,8 +1,9 @@
 # NAME: miass
 
-DOMAIN-KEYWORD,app.bigmess.org
-DOMAIN,app.bigmess
-DOMAIN-SUFFIX,app.bigmess
+
+DOMAIN,app.bigmess.com
+DOMAIN,app.bigmess.org
+DOMAIN-KEYWORD,bigmess
 
 
 DOMAIN-SUFFIX,missav.ai
