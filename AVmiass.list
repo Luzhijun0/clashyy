@@ -31,11 +31,9 @@ DOMAIN-SUFFIX,edge-hls.sacdnssedge.com
 DOMAIN-SUFFIX,video.saawsedge.com
 DOMAIN-SUFFIX,xhamsterlive.com
 DOMAIN-SUFFIX,tsvideo.sacdnssedge.com
-DOMAIN-SUFFIX,video.dmm.co.jp
-DOMAIN-SUFFIX,duga.jp
+DOMAIN-SUFFIX,pics.dmm.co.jp
 DOMAIN-SUFFIX,www.av-league.com
-DOMAIN-SUFFIX,ec.sod.co.jp
-DOMAIN-SUFFIX,special.dmm.co.jp
+DOMAIN-SUFFIX,pic.duga.jp
 
 
 #匹配域名
@@ -49,11 +47,9 @@ DOMAIN,img.doppiocdn.com
 DOMAIN,a.magsrv.com
 DOMAIN,s.magsrv.com
 DOMAIN,fourhoi.com
-DOMAIN,video.dmm.co.jp
-DOMAIN,duga.jp
-DOMAIN,av-league.com
-DOMAIN,ec.sod.co.jp
-DOMAIN,special.dmm.co.jp
+DOMAIN,pics.dmm.co.jp
+DOMAIN,www.av-league.com
+DOMAIN,pic.duga.jp
 
 
 
@@ -72,6 +68,10 @@ DOMAIN-KEYWORD,xlivrdr
 DOMAIN-KEYWORD,a.magsrv
 DOMAIN-KEYWORD,s.magsrv
 DOMAIN-KEYWORD,fourhoi
+DOMAIN,pics.dmm.co.jp
+DOMAIN,www.av-league.com
+DOMAIN,pic.duga.jp
+
 DOMAIN-KEYWORD,video.dmm.co.jp
 DOMAIN-KEYWORD,duga.jp
 DOMAIN-KEYWORD,av-league
@@ -90,6 +90,7 @@ IP-CIDR,82.165.235.35,no-resolve
 
 #b-hls-22.sacdnssedge.com
 #edge-hls.sacdnssedge.com
+
 
 
 
