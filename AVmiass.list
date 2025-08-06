@@ -31,6 +31,10 @@ DOMAIN-SUFFIX,edge-hls.sacdnssedge.com
 DOMAIN-SUFFIX,video.saawsedge.com
 DOMAIN-SUFFIX,xhamsterlive.com
 DOMAIN-SUFFIX,tsvideo.sacdnssedge.com
+DOMAIN-SUFFIX,video.dmm.co.jp
+DOMAIN-SUFFIX,duga.jp
+DOMAIN-SUFFIX,www.av-league.com
+DOMAIN-SUFFIX,ec.sod.co.jp
 
 
 #匹配域名
@@ -71,3 +75,4 @@ IP-CIDR,82.165.235.35,no-resolve
 
 #b-hls-22.sacdnssedge.com
 #edge-hls.sacdnssedge.com
+
