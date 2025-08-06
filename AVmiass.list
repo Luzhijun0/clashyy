@@ -69,9 +69,17 @@ DOMAIN-KEYWORD,myavlive
 DOMAIN-KEYWORD,go.myavlive
 DOMAIN-KEYWORD,cdn.tsyndicate
 DOMAIN-KEYWORD,xlivrdr
-DOMAIN,a.magsrv
-DOMAIN,s.magsrv
-DOMAIN,fourhoi
+DOMAIN-KEYWORD,a.magsrv
+DOMAIN-KEYWORD,s.magsrv
+DOMAIN-KEYWORD,fourhoi
+DOMAIN-KEYWORD,video.dmm.co.jp
+DOMAIN-KEYWORD,duga.jp
+DOMAIN-KEYWORD,av-league
+DOMAIN-KEYWORD,ec.sod.co.jp
+DOMAIN-KEYWORD,special.dmm.co.jp
+
+
+
 
 IP-CIDR,121.37.184.225/32,no-resolve
 IP-CIDR,27.44.204.122/32,no-resolve
@@ -82,5 +90,6 @@ IP-CIDR,82.165.235.35,no-resolve
 
 #b-hls-22.sacdnssedge.com
 #edge-hls.sacdnssedge.com
+
 
 
