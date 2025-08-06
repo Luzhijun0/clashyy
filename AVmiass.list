@@ -35,6 +35,7 @@ DOMAIN-SUFFIX,video.dmm.co.jp
 DOMAIN-SUFFIX,duga.jp
 DOMAIN-SUFFIX,www.av-league.com
 DOMAIN-SUFFIX,ec.sod.co.jp
+DOMAIN-SUFFIX,special.dmm.co.jp
 
 
 #匹配域名
@@ -48,6 +49,12 @@ DOMAIN,img.doppiocdn.com
 DOMAIN,a.magsrv.com
 DOMAIN,s.magsrv.com
 DOMAIN,fourhoi.com
+DOMAIN,video.dmm.co.jp
+DOMAIN,duga.jp
+DOMAIN,av-league.com
+DOMAIN,ec.sod.co.jp
+DOMAIN,special.dmm.co.jp
+
 
 
 #匹配域名关键字
@@ -75,4 +82,5 @@ IP-CIDR,82.165.235.35,no-resolve
 
 #b-hls-22.sacdnssedge.com
 #edge-hls.sacdnssedge.com
+
 
