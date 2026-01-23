@@ -1,6 +1,5 @@
 # NAME: miass
 
-
 DOMAIN-KEYWORD,bigmess
 
 
@@ -15,13 +14,16 @@ DOMAIN-SUFFIX,missav.ai
 DOMAIN-SUFFIX,missav.ws
 DOMAIN-SUFFIX,nineyu.com
 DOMAIN-SUFFIX,tsyndicate.com
+DOMAIN-SUFFIX,media-hls.growcdnssedge.com
 DOMAIN-SUFFIX,metrics.doppiostreams.com
 DOMAIN-SUFFIX,sentry-public.stripchat.com
+DOMAIN-SUFFIX,client-rapi-missav.recombee.com
 DOMAIN-SUFFIX,surrit.com
 DOMAIN-SUFFIX,myavlive.com
 DOMAIN-SUFFIX,go.myavlive.com
 DOMAIN-SUFFIX,cdn.tsyndicate.com
 DOMAIN-SUFFIX,go.xlivrdr.com
+DOMAIN-SUFFIX,go.xxxvjmp.com
 DOMAIN-SUFFIX,img.doppiocdn.com
 DOMAIN-SUFFIX,a.magsrv.com
 DOMAIN-SUFFIX,s.magsrv.com
@@ -53,6 +55,7 @@ DOMAIN,pic.duga.jp
 
 
 
+
 #匹配域名关键字
 DOMAIN-KEYWORD,missav
 DOMAIN-KEYWORD,missav.ws
@@ -68,9 +71,7 @@ DOMAIN-KEYWORD,xlivrdr
 DOMAIN-KEYWORD,a.magsrv
 DOMAIN-KEYWORD,s.magsrv
 DOMAIN-KEYWORD,fourhoi
-DOMAIN,pics.dmm.co.jp
-DOMAIN,www.av-league.com
-DOMAIN,pic.duga.jp
+
 
 DOMAIN-KEYWORD,video.dmm.co.jp
 DOMAIN-KEYWORD,duga.jp
@@ -90,6 +91,7 @@ IP-CIDR,82.165.235.35,no-resolve
 
 #b-hls-22.sacdnssedge.com
 #edge-hls.sacdnssedge.com
+
 
 
 
