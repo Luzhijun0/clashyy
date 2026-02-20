@@ -13,6 +13,7 @@ DOMAIN-KEYWORD,missav
 DOMAIN-SUFFIX,missav.ai
 DOMAIN-SUFFIX,missav.ws
 DOMAIN-SUFFIX,nineyu.com
+DOMAIN-SUFFIX,www.heyzo.com
 DOMAIN-SUFFIX,tsyndicate.com
 DOMAIN-SUFFIX,media-hls.growcdnssedge.com
 DOMAIN-SUFFIX,metrics.doppiostreams.com
@@ -99,6 +100,7 @@ IP-CIDR,82.165.235.35,no-resolve
 
 #b-hls-22.sacdnssedge.com
 #edge-hls.sacdnssedge.com
+
 
 
 
