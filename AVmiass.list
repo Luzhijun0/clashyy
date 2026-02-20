@@ -38,7 +38,8 @@ DOMAIN-SUFFIX,www.av-league.com
 DOMAIN-SUFFIX,pic.duga.jp
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN,javbus
-
+DOMAIN,dmm.co.jp
+DOMAIN,aventertainments
 
 #匹配域名
 DOMAIN,missav.ai
@@ -56,6 +57,8 @@ DOMAIN,www.av-league.com
 DOMAIN,pic.duga.jp
 DOMAIN,jav321.com
 DOMAIN,javbus.com
+DOMAIN,dmm.co.jp
+DOMAIN,aventertainments.com
 
 
 
@@ -96,6 +99,7 @@ IP-CIDR,82.165.235.35,no-resolve
 
 #b-hls-22.sacdnssedge.com
 #edge-hls.sacdnssedge.com
+
 
 
 
