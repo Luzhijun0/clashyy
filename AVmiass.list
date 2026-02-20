@@ -36,6 +36,7 @@ DOMAIN-SUFFIX,tsvideo.sacdnssedge.com
 DOMAIN-SUFFIX,pics.dmm.co.jp
 DOMAIN-SUFFIX,www.av-league.com
 DOMAIN-SUFFIX,pic.duga.jp
+DOMAIN-SUFFIX,themoviedb.org
 
 
 #匹配域名
@@ -52,6 +53,7 @@ DOMAIN,fourhoi.com
 DOMAIN,pics.dmm.co.jp
 DOMAIN,www.av-league.com
 DOMAIN,pic.duga.jp
+DOMAIN,jav321.com
 
 
 
@@ -91,6 +93,7 @@ IP-CIDR,82.165.235.35,no-resolve
 
 #b-hls-22.sacdnssedge.com
 #edge-hls.sacdnssedge.com
+
 
 
 
