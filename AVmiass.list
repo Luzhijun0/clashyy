@@ -37,6 +37,7 @@ DOMAIN-SUFFIX,pics.dmm.co.jp
 DOMAIN-SUFFIX,www.av-league.com
 DOMAIN-SUFFIX,pic.duga.jp
 DOMAIN-SUFFIX,themoviedb.org
+DOMAIN,javbus
 
 
 #匹配域名
@@ -54,6 +55,7 @@ DOMAIN,pics.dmm.co.jp
 DOMAIN,www.av-league.com
 DOMAIN,pic.duga.jp
 DOMAIN,jav321.com
+DOMAIN,javbus.com
 
 
 
@@ -62,6 +64,7 @@ DOMAIN,jav321.com
 DOMAIN-KEYWORD,missav
 DOMAIN-KEYWORD,missav.ws
 DOMAIN-KEYWORD,missav.ai
+DOMAIN-KEYWORD,javbus.com
 DOMAIN-KEYWORD,tsyndicate
 DOMAIN-KEYWORD,api.ipify
 DOMAIN-KEYWORD,tsyndicate
@@ -93,6 +96,7 @@ IP-CIDR,82.165.235.35,no-resolve
 
 #b-hls-22.sacdnssedge.com
 #edge-hls.sacdnssedge.com
+
 
 
 
