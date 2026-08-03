@@ -1,110 +1,89 @@
 # NAME: miass
+# 规则说明：此规则集合用于匹配AV类影音网站、CDN资源域名，统一走代理分组proxylite
 
-DOMAIN-KEYWORD,bigmess
-
-
-
-DOMAIN-SUFFIX,missav.ai
-DOMAIN,missav.ai
-DOMAIN-KEYWORD,missav.ai
-DOMAIN-KEYWORD,missav
-
-#匹配域名后缀
-DOMAIN-SUFFIX,missav.ai
-DOMAIN-SUFFIX,missav.ws
+# ===================== DOMAIN-SUFFIX 域名后缀匹配 =====================
+# 作用：匹配所有以该后缀结尾的域名，匹配范围最广，无需写完整域名
+DOMAIN-SUFFIX,shturl.cc
+DOMAIN-SUFFIX,shturl.cc
 DOMAIN-SUFFIX,nineyu.com
-DOMAIN-SUFFIX,www.heyzo.com
-DOMAIN-SUFFIX,tsyndicate.com
+DOMAIN-SUFFIX,shturl.cc/NVZ
+DOMAIN-SUFFIX,shturl.cc/3cRQ
 DOMAIN-SUFFIX,media-hls.growcdnssedge.com
 DOMAIN-SUFFIX,metrics.doppiostreams.com
-DOMAIN-SUFFIX,sentry-public.stripchat.com
+DOMAIN-SUFFIX,shturl.cc/4m318aP3hLQEYZVba
 DOMAIN-SUFFIX,client-rapi-missav.recombee.com
 DOMAIN-SUFFIX,surrit.com
-DOMAIN-SUFFIX,myavlive.com
-DOMAIN-SUFFIX,go.myavlive.com
-DOMAIN-SUFFIX,cdn.tsyndicate.com
-DOMAIN-SUFFIX,go.xlivrdr.com
-DOMAIN-SUFFIX,go.xxxvjmp.com
+DOMAIN-SUFFIX,shturl.cc/xm
+DOMAIN-SUFFIX,shturl.cc/Rh4rragK
+DOMAIN-SUFFIX,shturl.cc/EeU2
+DOMAIN-SUFFIX,shturl.cc/MAZg
 DOMAIN-SUFFIX,img.doppiocdn.com
-DOMAIN-SUFFIX,a.magsrv.com
-DOMAIN-SUFFIX,s.magsrv.com
-DOMAIN-SUFFIX,fourhoi.com
+DOMAIN-SUFFIX,shturl.cc/bW
+DOMAIN-SUFFIX,shturl.cc/Hd
+DOMAIN-SUFFIX,shturl.cc/X
 DOMAIN-SUFFIX,b-hls-22.sacdnssedge.com
-DOMAIN-SUFFIX,edge-hls.sacdnssedge.com
+DOMAIN-SUFFIX,shturl.cc/sSqceRIUSWwQoI
 DOMAIN-SUFFIX,video.saawsedge.com
 DOMAIN-SUFFIX,xhamsterlive.com
 DOMAIN-SUFFIX,tsvideo.sacdnssedge.com
 DOMAIN-SUFFIX,pics.dmm.co.jp
-DOMAIN-SUFFIX,www.av-league.com
+DOMAIN-SUFFIX,shturl.cc/LooyLfj
 DOMAIN-SUFFIX,pic.duga.jp
 DOMAIN-SUFFIX,themoviedb.org
-DOMAIN,javbus
-DOMAIN,dmm.co.jp
-DOMAIN,aventertainments
 
-#匹配域名
-DOMAIN,missav.ai
-DOMAIN,missav.ws
-DOMAIN,myavlive.com
-DOMAIN,go.myavlive.com
-DOMAIN,cdn.tsyndicate.com
-DOMAIN,go.xlivrdr.com
+# ===================== DOMAIN 完整精准域名匹配 =====================
+# 作用：仅匹配完全一模一样的域名，精准锁定单站，不会误伤二级域名
+DOMAIN,shturl.cc
+DOMAIN,shturl.cc
+DOMAIN,shturl.cc/xm
+DOMAIN,shturl.cc/soRZI
+DOMAIN,shturl.cc/Rh4rragK
+DOMAIN,shturl.cc/EeU2
 DOMAIN,img.doppiocdn.com
-DOMAIN,a.magsrv.com
-DOMAIN,s.magsrv.com
-DOMAIN,fourhoi.com
+DOMAIN,shturl.cc/bW
+DOMAIN,shturl.cc/Hd
+DOMAIN,shturl.cc/X
 DOMAIN,pics.dmm.co.jp
-DOMAIN,www.av-league.com
+DOMAIN,shturl.cc/LooyLfj
 DOMAIN,pic.duga.jp
 DOMAIN,jav321.com
 DOMAIN,javbus.com
 DOMAIN,dmm.co.jp
-DOMAIN,aventertainments.com
-DOMAIN,heyzo.com
+DOMAIN,shturl.cc/IoVDDj4iI4
+DOMAIN,shturl.cc
+DOMAIN,javbus
+DOMAIN,dmm.co.jp
+DOMAIN,aventertainments
 
-
-
-
-#匹配域名关键字
+# ===================== DOMAIN-KEYWORD 域名关键字模糊匹配 =====================
+# 作用：只要域名包含该关键字就匹配，覆盖所有含关键词的站点/二级域名
+DOMAIN-KEYWORD,bigmess
 DOMAIN-KEYWORD,missav
-DOMAIN-KEYWORD,missav.ws
-DOMAIN-KEYWORD,missav.ai
-DOMAIN-KEYWORD,javbus.com
+DOMAIN-KEYWORD,javbus
 DOMAIN-KEYWORD,tsyndicate
 DOMAIN-KEYWORD,api.ipify
-DOMAIN-KEYWORD,tsyndicate
 DOMAIN-KEYWORD,nineyu
 DOMAIN-KEYWORD,myavlive
-DOMAIN-KEYWORD,go.myavlive
 DOMAIN-KEYWORD,cdn.tsyndicate
 DOMAIN-KEYWORD,xlivrdr
 DOMAIN-KEYWORD,a.magsrv
 DOMAIN-KEYWORD,s.magsrv
 DOMAIN-KEYWORD,fourhoi
 DOMAIN-KEYWORD,heyzo
-
-
 DOMAIN-KEYWORD,video.dmm.co.jp
 DOMAIN-KEYWORD,duga.jp
 DOMAIN-KEYWORD,av-league
-DOMAIN-KEYWORD,ec.sod.co.jp
+DOMAIN-KEYWORD,shturl.cc/Ci
 DOMAIN-KEYWORD,special.dmm.co.jp
 
-
-
-
+# ===================== IP-CIDR 固定IP段匹配 =====================
+# 作用：直接匹配IP地址流量，no-resolve 禁止DNS解析，防止域名污染漏匹配
 IP-CIDR,121.37.184.225/32,no-resolve
 IP-CIDR,27.44.204.122/32,no-resolve
 IP-CIDR,43.231.161.172/32,no-resolve
-IP-CIDR,104.16.133.229,no-resolve
-IP-CIDR,104.16.132.229,no-resolve
-IP-CIDR,82.165.235.35,no-resolve
-
-#b-hls-22.sacdnssedge.com
-#edge-hls.sacdnssedge.com
-
-
-
+IP-CIDR,104.16.133.229/32,no-resolve
+IP-CIDR,104.16.132.229/32,no-resolve
+IP-CIDR,82.165.235.35/32,no-resolve
 
 
 
